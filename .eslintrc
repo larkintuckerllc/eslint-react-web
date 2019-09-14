@@ -18,7 +18,8 @@
   "plugins": ["@typescript-eslint", "jest"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
-    "spaced-comment": ["error", "always", { "markers": ["/"] }]
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
+    "react/prop-types": "off"
   },
   "settings": {
     "import/extensions": [".js",".jsx",".ts",".tsx"],
